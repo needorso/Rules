@@ -1,0 +1,84 @@
+# 文件名称：Testme.list
+# 修改时间：2026.08.10
+# 用途：Speedtest / IP 查询 / DNS 泄漏检测 专用规则
+
+# --- IP 查询 / 归属地查询 ---
+DOMAIN-SUFFIX,ipinfo.io                    # IP 信息查询（常用）
+DOMAIN-SUFFIX,ip-api.com                   # IP-API 地理位置查询
+DOMAIN-SUFFIX,ip.sb                        # ip.sb 查询
+DOMAIN-SUFFIX,ipify.org                    # ipify 简单 IP 查询
+DOMAIN-SUFFIX,ipip.net                     # IPIP.NET 查询
+DOMAIN-SUFFIX,ipw.cn                       # IPW 查询
+DOMAIN-SUFFIX,ip111.cn                     # IP111 多线路查询
+DOMAIN-SUFFIX,ip125.com                    # IP125 查询
+DOMAIN-SUFFIX,ip-score.com                 # IP 评分/风险查询
+DOMAIN-SUFFIX,ip2proxy.com                 # IP2Proxy 代理检测
+DOMAIN-SUFFIX,ipaddress.me                 # IPAddress.me
+DOMAIN-SUFFIX,ifconfig.me                  # ifconfig.me
+DOMAIN-SUFFIX,whois.pconline.com.cn        # 太平洋电脑网 Whois
+DOMAIN-SUFFIX,whoer.net                    # Whoer 综合检测
+DOMAIN-SUFFIX,whoer.com                    # Whoer
+DOMAIN-SUFFIX,whoisip.me                   # WhoisIP
+DOMAIN-SUFFIX,whatismyip.com               # WhatIsMyIP
+DOMAIN-SUFFIX,whatismyip.com.tw            # 台湾 WhatIsMyIP
+DOMAIN-SUFFIX,ping0.cc                     # Ping0 查询
+DOMAIN-SUFFIX,skk.moe                      # SKK.moe 工具
+DOMAIN-SUFFIX,jsonp-ip.com                 # JSONP IP 查询
+DOMAIN-SUFFIX,asn247.net                   # ASN 查询相关
+DOMAIN-SUFFIX,yalala.com                   # 雅拉 IP 查询
+DOMAIN-SUFFIX,ippure.com                   # IPPure IP 纯度/风险检测
+DOMAIN-SUFFIX,iplark.com                   # IPLark 查询
+DOMAIN-SUFFIX,ipcheck.ing                  # IPCheck.ing 综合工具箱
+DOMAIN-SUFFIX,ipcheck.im                   # IPCheck.im
+DOMAIN-SUFFIX,ipleak.net                   # IPLeak.net（经典 DNS/WebRTC 泄漏）
+DOMAIN-SUFFIX,2ip.io                       # 2ip 查询
+DOMAIN-SUFFIX,ip.gs                        # IP.GS
+DOMAIN-SUFFIX,myip.com                     # MyIP.com
+DOMAIN-SUFFIX,ip.me                        # IP.me
+DOMAIN-SUFFIX,icanhazip.com                # 简单返回 IP
+DOMAIN-SUFFIX,api.ip.sb                    # ip.sb API
+DOMAIN-SUFFIX,ipapi.co                     # ipapi.co
+
+# --- DNS 泄漏检测 ---
+DOMAIN-SUFFIX,dnsleaktest.com              # DNS Leak Test 官网
+DOMAIN-SUFFIX,dnsleaktest.org              # DNS Leak Test
+DOMAIN-SUFFIX,dnscheck.tools               # DNS Check Tools
+DOMAIN-SUFFIX,browserleaks.com             # BrowserLeaks 综合泄漏检测
+DOMAIN-SUFFIX,browserleaks.org             # BrowserLeaks
+DOMAIN-SUFFIX,browserleaks.net             # BrowserLeaks
+DOMAIN-SUFFIX,browserscan.net              # BrowserScan DNS/浏览器检测
+DOMAIN-SUFFIX,1-b.net                      # 1-b.net 泄漏测试
+DOMAIN-SUFFIX,null-addr.com                # Null-Addr 系列
+DOMAIN-SUFFIX,null-addr.net
+DOMAIN-SUFFIX,null-addr.org
+DOMAIN-SUFFIX,null-addr.biz
+DOMAIN-SUFFIX,null-addr.info
+DOMAIN-SUFFIX,addr.tools                   # Addr.tools
+
+# --- 网速测试 / Speedtest ---
+DOMAIN-SUFFIX,speedtest.net                # Ookla Speedtest
+DOMAIN-SUFFIX,speedtest.cn                 # 国内 Speedtest
+DOMAIN-SUFFIX,speedtest.com                # Speedtest.com
+DOMAIN-SUFFIX,speedcheck.org               # SpeedCheck
+DOMAIN-SUFFIX,fast.com                     # Netflix Fast.com
+DOMAIN,speed.cloudflare.com                # Cloudflare 测速
+DOMAIN-SUFFIX,ustc.edu.cn                  # 中科大测速
+
+# --- VPN / 代理 / 指纹检测相关 ---
+DOMAIN-SUFFIX,surfshark.com                # Surfshark
+DOMAIN-SUFFIX,surfsharkdns.com             # Surfshark DNS
+DOMAIN-SUFFIX,vultr.com                    # Vultr（常用于测试）
+DOMAIN-SUFFIX,vpnapi.io                    # VPNAPI 检测
+DOMAIN-SUFFIX,astrill.org                  # Astrill
+DOMAIN-SUFFIX,sspanel.net                  # SSPanel 相关
+DOMAIN-SUFFIX,incolumitas.com              # 指纹/隐私检测
+DOMAIN-SUFFIX,888005.xyz                   # 相关检测站点
+DOMAIN-SUFFIX,b0.upaiyun.com               # 又拍云相关
+DOMAIN-SUFFIX,workers.dev                  # Cloudflare Workers
+
+# --- 关键字匹配 ---
+DOMAIN-KEYWORD,blackberry                  # 黑莓相关 STUN/检测
+
+# --- IP-CIDR（特定测速/检测 IP 段）---
+IP-CIDR,142.251.215.0/24,no-resolve        # Google 相关测速 IP 段
+IP-CIDR,74.125.250.129/24,no-resolve       # Google 相关 IP 段
