@@ -13,66 +13,66 @@ heartbeat.belkin.com                                     # 真实解析  Belkin 
 local.adguard.org                                        # 真实解析  AdGuard 本地服务
 
 # --- 金融风控 / 推送 SDK（银行登录最容易挂的地方）---
-+.tongdun.net
-+.tongduncdn.com
-+.ishumei.com
-+.riskradar.net
-+.geetest.com
-+.dingxiangyun.com
-+.dingxiangyun.cn
-+.trustdevice.net
-+.aegis.qq.com
-+.antpay.com
-+.rong360.com
-+.jiguang.cn
-+.jpush.cn
-+.jpush.io
-+.umeng.com
-+.umengcloud.com
-+.rongcloud.cn
-+.rongcloud.com
-localhost.*.weixin.qq.com
-localhost.ptlogin2.qq.com
-localhost.sec.qq.com
++.tongdun.net                                            # 真实解析  同盾科技 反欺诈
++.tongduncdn.com                                         # 真实解析  同盾 CDN
++.ishumei.com                                            # 真实解析  数美科技 风控
++.riskradar.net                                          # 真实解析  数美 风险雷达
++.geetest.com                                            # 真实解析  极验 验证码/行为验证
++.dingxiangyun.com                                       # 真实解析  顶象科技 设备指纹
++.dingxiangyun.cn                                        # 真实解析  顶象科技
++.trustdevice.net                                        # 真实解析  TrustDevice 设备风控
++.aegis.qq.com                                           # 真实解析  腾讯安全 鹰眼
++.antpay.com                                             # 真实解析  蚂蚁支付安全
++.rong360.com                                            # 真实解析  百融云创
++.jiguang.cn                                             # 真实解析  极光推送
++.jpush.cn                                               # 真实解析  极光推送
++.jpush.io                                               # 真实解析  极光推送
++.umeng.com                                              # 真实解析  友盟统计
++.umengcloud.com                                         # 真实解析  友盟云
++.rongcloud.cn                                           # 真实解析  融云 IM
++.rongcloud.com                                          # 真实解析  融云
+localhost.*.weixin.qq.com                                # 真实解析  微信本地登录
+localhost.ptlogin2.qq.com                                # 真实解析  QQ 本地登录
+localhost.sec.qq.com                                     # 真实解析  QQ 安全本地
 
 # --- Apple 推送 ---
-+.push.apple.com
++.push.apple.com                                         # 真实解析  Apple 推送服务 APNs
 
 # --- Windows 网络检测 ---
-+.msftconnecttest.com
-+.msftncsi.com
++.msftconnecttest.com                                    # 真实解析  Windows 网络连接检测
++.msftncsi.com                                           # 真实解析  Windows NCSI 检测
 
 # --- 锐捷路由器 ---
-+.ruijie.com.cn
-+.ruijienetworks.com
-+.ruijiery.com
-+.ruijieddns.com
-+.reyeeddns.com
++.ruijie.com.cn                                          # 真实解析  锐捷官网/云管理
++.ruijienetworks.com                                     # 真实解析  锐捷国际官网
++.ruijiery.com                                           # 真实解析  锐捷睿易
++.ruijieddns.com                                         # 真实解析  锐捷 DDNS
++.reyeeddns.com                                          # 真实解析  Reyee DDNS
 
 # --- 优倍快 / UniFi ---
-+.ui.com
-+.ubnt.com
-unifi.ui.com
++.ui.com                                                 # 真实解析  Ubiquiti 官方云服务
++.ubnt.com                                               # 真实解析  Ubiquiti 旧域名
+unifi.ui.com                                             # 真实解析  UniFi 云管理入口
 
 # --- 华硕路由器 ---
-+.router.asus.com
-+.asuscomm.com
-+.asus.com
++.router.asus.com                                        # 真实解析  华硕路由器本地管理
++.asuscomm.com                                           # 真实解析  华硕官方免费 DDNS
++.asus.com                                               # 真实解析  华硕官网/固件相关
 
 # --- Linksys 路由器 ---
-+.linksys.com
-+.linksyssmartwifi.com
++.linksys.com                                            # 真实解析  Linksys 路由器管理
++.linksyssmartwifi.com                                   # 真实解析  Linksys 智能 WiFi
 
 # --- 群晖 Synology ---
-+.synology.com
-+.synology.me
-+.quickconnect.to
-+.synology.cn
-+.i234.me
++.synology.com                                           # 真实解析  群晖官方服务
++.synology.me                                            # 真实解析  群晖官方 QuickConnect / DDNS
++.quickconnect.to                                        # 真实解析  群晖 QuickConnect
++.synology.cn                                            # 真实解析  群晖中国
++.i234.me                                                # 真实解析  你的群晖 DDNS
 
 # --- NAT 穿透 / 实时通信（游戏、语音、视频会议、P2P）---
-stun.*
-+.stun.*.*
-+.turn.*
-+._tcp.*
-+._udp.*
+stun.*                                                   # 真实解析  STUN 地址发现
++.stun.*.*                                               # 真实解析  多级 STUN 服务
++.turn.*                                                 # 真实解析  TURN 中继服务
++._tcp.*                                                 # 真实解析  TCP 服务发现
++._udp.*                                                 # 真实解析  UDP 服务发现
