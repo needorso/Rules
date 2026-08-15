@@ -8,7 +8,7 @@ DOMAIN-SUFFIX,ipinfo.io
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipify.org
-DOMAIN-SUFFIX,ipip.net
+# DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,ipip.info
 DOMAIN-SUFFIX,ipw.cn
 DOMAIN-SUFFIX,ip111.cn
